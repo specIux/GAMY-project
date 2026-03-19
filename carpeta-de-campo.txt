@@ -14,4 +14,9 @@ que tendra 5 posibles estados (neutro, adelanta, atras, izquierda o derecha) y 3
 
 18/03: 
 	- creacion de repositorio de github
-	- 	
+	- 
+
+19/03 
+   - 
+   - 
+   -
