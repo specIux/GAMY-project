@@ -17,6 +17,6 @@ que tendra 5 posibles estados (neutro, adelanta, atras, izquierda o derecha) y 3
 	- 
 
 19/03 
-   - 
+   - Diseño de personajes, ambiente: KRITA (mas opciones tambien)...
    - 
    -
