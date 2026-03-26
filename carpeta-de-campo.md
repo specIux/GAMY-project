@@ -29,4 +29,16 @@ que tendra 5 posibles estados (neutro, adelanta, atras, izquierda o derecha) y 3
 
  26/03 
 -  Estudios de los distintos lenguajes de programacion
--  Lectura de "Guia Maestra" para encaminar el proyecto 
+-  Lectura de "Guia Maestra" para encaminar el proyecto  
+-  Conceptos base 
+    El proyecto es un: Videojuego
+    Tipo: RPG, combate por turnos
+    Arte: Sprites pixeleados en 2D
+    PVP: Bullet hell (basado en undertale/deltarune)
+    Historia: Pendiente, debe ser simple, sin quemarse mucho la cabeza
+    Motor: Godot
+    Lenguaje: GDScript
+- Ciclo del juego
+   La idea actual es que el flujo del juego sea un selector de misiones con un posible modo sandbox, podria asemejarse al selector de weeks de Friday Nigger Funkin, quizas siendo misiones distintas,  en las cuales ni bien 
+   se seleccionan, podrian haber cinematicas o dialogos y luego empieza el combate directo 
+
