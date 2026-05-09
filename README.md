@@ -4,6 +4,10 @@ Este repositorio va a estar destinado a toda la información aportada para nuest
 # Codigos-Fuentes
 Dentro de esta seccion se encuentran todos los codigos fuentes realizados durante el momento [CODES](CODES/)
 Los lenguajes utilizados fueron: 
-     - HTML y CSS
-     - GDScript
+- HTML / CSS
+- GDScript
+
+
+
+     
 
