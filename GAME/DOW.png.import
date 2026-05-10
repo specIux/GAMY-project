@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkfat6672a2db"
-path="res://.godot/imported/DIAG2.png-1d07a760e9c1edf77fe5900ed0843ee6.ctex"
+uid="uid://bmqmtf7i5t40v"
+path="res://.godot/imported/DOW.png-3121884d9a1bf7d6958509aa879e25b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://animaciones/DIAG2.png"
-dest_files=["res://.godot/imported/DIAG2.png-1d07a760e9c1edf77fe5900ed0843ee6.ctex"]
+source_file="res://DOW.png"
+dest_files=["res://.godot/imported/DOW.png-3121884d9a1bf7d6958509aa879e25b5.ctex"]
 
 [params]
 
@@ -37,4 +37,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

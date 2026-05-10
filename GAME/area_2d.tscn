@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://bop3bjyrwenvf"]
 
-[ext_resource type="Texture2D" uid="uid://bpjmncomed2iw" path="res://animaciones/FOR.png" id="1_5rgpn"]
+[ext_resource type="Texture2D" uid="uid://bmqmtf7i5t40v" path="res://DOW.png" id="1_5rgpn"]
 [ext_resource type="Script" uid="uid://dyxqnci07tmci" path="res://area_2d.gd" id="1_c0nl8"]
-[ext_resource type="Texture2D" uid="uid://byo28k0pfgrst" path="res://animaciones/RIGHT.png" id="3_1dtnr"]
+[ext_resource type="Texture2D" uid="uid://bydaiv86xbr5" path="res://RIGHT.png" id="2_c0nl8"]
+[ext_resource type="Texture2D" uid="uid://dopncmrjkpsko" path="res://FOR.png" id="3_1dtnr"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c33a7"]
 animations = [{
@@ -11,7 +12,15 @@ animations = [{
 "texture": ExtResource("1_5rgpn")
 }],
 "loop": true,
-"name": &"Forward",
+"name": &"walk-down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_c0nl8")
+}],
+"loop": true,
+"name": &"walk-sides",
 "speed": 5.0
 }, {
 "frames": [{
@@ -19,28 +28,21 @@ animations = [{
 "texture": ExtResource("3_1dtnr")
 }],
 "loop": true,
-"name": &"Side",
-"speed": 5.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"default",
+"name": &"walk-up",
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_dl81w"]
-size = Vector2(189, 148)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oqxq1"]
+size = Vector2(71, 71)
 
-[node name="player" type="Area2D" unique_id=1190507086]
+[node name="Player" type="CharacterBody2D" unique_id=1133059201]
 script = ExtResource("1_c0nl8")
+speed = 500.0
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=120388881]
-position = Vector2(183.49998, 111.5)
-scale = Vector2(10.781248, 10.531249)
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1714524984]
+scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_c33a7")
-animation = &"Forward"
-frame_progress = 0.8009533
+animation = &"walk-sides"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=205129305]
-position = Vector2(178, 113)
-shape = SubResource("RectangleShape2D_dl81w")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=740347239]
+shape = SubResource("RectangleShape2D_oqxq1")
