@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bydaiv86xbr5"
-path="res://.godot/imported/RIGHT.png-c5f1b4f2cf1e2f170df2d6052d72a1bd.ctex"
+uid="uid://y0no5f4hebxn"
+path="res://.godot/imported/tileset_mazmorra.png-74c54d299be16f185a35eabeb4924323.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://RIGHT.png"
-dest_files=["res://.godot/imported/RIGHT.png-c5f1b4f2cf1e2f170df2d6052d72a1bd.ctex"]
+source_file="res://Assets/Sprites/tileset_mazmorra.png"
+dest_files=["res://.godot/imported/tileset_mazmorra.png-74c54d299be16f185a35eabeb4924323.ctex"]
 
 [params]
 

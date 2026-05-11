@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dopncmrjkpsko"
-path="res://.godot/imported/FOR.png-28230d364950f1ff9d5e474c6a58e62e.ctex"
+uid="uid://sq7cm621bv8s"
+path="res://.godot/imported/HALFBRICK_LEFT.png-eb95fbb8c176db3d656f484277da656a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FOR.png"
-dest_files=["res://.godot/imported/FOR.png-28230d364950f1ff9d5e474c6a58e62e.ctex"]
+source_file="res://Assets/Sprites/HALFBRICK_LEFT.png"
+dest_files=["res://.godot/imported/HALFBRICK_LEFT.png-eb95fbb8c176db3d656f484277da656a.ctex"]
 
 [params]
 

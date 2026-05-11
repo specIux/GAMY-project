@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c4yu8m650yb0t"]
+
+[ext_resource type="PackedScene" uid="uid://ueu0bg2cdidn" path="res://Escenas/Bordes_act1.tscn" id="1_abw2b"]
+[ext_resource type="TileSet" uid="uid://cisjux5cabqw6" path="res://Assets/Tile_sets/tile_set1.tres" id="1_cqhha"]
+
+[node name="Act1" type="Node2D" unique_id=2113643638]
+
+[node name="Nivel" type="TileMapLayer" parent="." unique_id=1921409469]
+tile_set = ExtResource("1_cqhha")
+
+[node name="Bordes" parent="." unique_id=1099987559 instance=ExtResource("1_abw2b")]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmqmtf7i5t40v"
-path="res://.godot/imported/DOW.png-3121884d9a1bf7d6958509aa879e25b5.ctex"
+uid="uid://c5jg5pc74m8hx"
+path="res://.godot/imported/UPPERBRICK_LEFT.png-5ccbf5b237910c5c4bfbb17672115dad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://DOW.png"
-dest_files=["res://.godot/imported/DOW.png-3121884d9a1bf7d6958509aa879e25b5.ctex"]
+source_file="res://Assets/Sprites/UPPERBRICK_LEFT.png"
+dest_files=["res://.godot/imported/UPPERBRICK_LEFT.png-5ccbf5b237910c5c4bfbb17672115dad.ctex"]
 
 [params]
 
