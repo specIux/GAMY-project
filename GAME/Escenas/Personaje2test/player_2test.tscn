@@ -1,23 +1,25 @@
 [gd_scene format=3 uid="uid://21cc4pj8fxvv"]
 
-[ext_resource type="Script" uid="uid://dyxqnci07tmci" path="res://Escenas/Player/area_2d.gd" id="1_d317n"]
+[ext_resource type="Script" uid="uid://dyxqnci07tmci" path="res://Escenas/Player/area_2d.gd" id="1_pvljf"]
 [ext_resource type="SpriteFrames" uid="uid://dnk5x6we8kncb" path="res://Escenas/Personaje2test/new_sprite_frames.tres" id="2_pvljf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oqxq1"]
 size = Vector2(14, 27)
 
 [node name="Player2TEST" type="CharacterBody2D" unique_id=1133059201]
-script = ExtResource("1_d317n")
+script = ExtResource("1_pvljf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1714524984]
 scale = Vector2(0.585, 0.585)
 sprite_frames = ExtResource("2_pvljf")
-animation = &"walk_up"
+animation = &"walk_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=740347239]
+visible = false
 position = Vector2(1, 1.5)
 shape = SubResource("RectangleShape2D_oqxq1")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=613649045]
+visible = false
 position = Vector2(0, -2.5)
 zoom = Vector2(3.705, 3.705)
