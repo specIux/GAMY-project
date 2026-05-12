@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bop3bjyrwenvf"]
 
-[ext_resource type="Script" uid="uid://dyxqnci07tmci" path="res://area_2d.gd" id="1_8g85c"]
+[ext_resource type="Script" uid="uid://dyxqnci07tmci" path="res://Escenas/Player/area_2d.gd" id="1_8g85c"]
 [ext_resource type="Texture2D" uid="uid://bmqmtf7i5t40v" path="res://Assets/Sprites/DOW.png" id="2_muoba"]
 [ext_resource type="Texture2D" uid="uid://bydaiv86xbr5" path="res://Assets/Sprites/RIGHT.png" id="3_fwv5a"]
 [ext_resource type="Texture2D" uid="uid://dopncmrjkpsko" path="res://Assets/Sprites/FOR.png" id="4_btktc"]
@@ -42,7 +42,7 @@ speed = 500.0
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1714524984]
 scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_c33a7")
-animation = &"walk-sides"
+animation = &"walk-down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=740347239]
 position = Vector2(0, -2.5)

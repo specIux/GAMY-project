@@ -11,12 +11,14 @@ config_version=5
 [application]
 
 config/name="Arepa Ride"
-run/main_scene="uid://bop3bjyrwenvf"
+run/main_scene="uid://pxdeq3vrq817"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=800
+window/size/viewport_height=600
 window/stretch/mode="canvas_items"
 
 [input]
@@ -46,6 +48,11 @@ right={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Solido"
+2d_physics/layer_2="Jugador"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -54,4 +61,5 @@ right={
 
 textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
 2d/snap/snap_2d_transforms_to_pixel=true
