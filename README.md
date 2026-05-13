@@ -10,5 +10,9 @@ Los lenguajes utilizados fueron:
 # ArepaRide
 ArepaRide es el juego en desarrollo por el grupo GAMY, este va a ser un videojuego en 2D de categoría RPG [GAME](GAME/)
 
+# [LICENCIA](GAMY-project/LICENSE)
+
+
+
      
 
