@@ -137,6 +137,10 @@ h2{
     font-family: "Poppins" , sans-serif;
 }
 
+.subtitle_secondary{
+    margin-left: 25px;
+}
+
 
 .hist-info , .hist-imgs {
 
@@ -166,7 +170,10 @@ h2{
     padding-top: 20px;
 }
 
-
+ol{
+    color:var(--white-color);
+    margin-left: 35px;
+}
 
 
 
