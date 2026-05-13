@@ -18,13 +18,14 @@ func _physics_process(delta: float) -> void:
 		direction.y += 1
 	if Input.is_action_pressed("up"):
 		direction.y -= 1
-
+ 
 	# Normaliza para evitar movimiento más rápido en diagonal
 	if direction != Vector2.ZERO:
 		direction = direction.normalized()
 
 	velocity = direction * speed
 	move_and_slide()
+
 
 	# Actualiza la animación según la dirección
 	_update_animation(direction)
