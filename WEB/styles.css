@@ -229,4 +229,34 @@ iframe {
     width: 100%;
     border-radius: 8px;
 }
+button {
+    display: block;       /* Lo bajamos a su propio renglón */
+    width: fit-content;   /* ¡ESTA ES LA CLAVE! Se ajusta solo al texto */
+    margin: 10px auto;    /* Lo centra y le da espacio arriba/abajo */
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    /* 1. La transición: hace que los cambios sean suaves y no de golpe */
+    transition: all 0.2s ease; 
+}
+
+/* 2. Cuando el mouse pasa por arriba */
+button:hover {
+    background-color: #218838; /* Se pone un poco más oscuro */
+    transform: scale(1.05);    /* Se agranda un poquito (efecto visual) */
+}
+
+/* 3. Cuando hacés el clic (efecto de hundido) */
+button:active {
+    transform: scale(0.95);    /* Se achica un poco, como si lo estuvieras pisando */
+    background-color: #1e7e34;
+}
 
