@@ -230,10 +230,10 @@ iframe {
     border-radius: 8px;
 }
 button {
-    display: block;       /* Lo bajamos a su propio renglón */
-    width: fit-content;   /* ¡ESTA ES LA CLAVE! Se ajusta solo al texto */
-    margin: 10px auto;    /* Lo centra y le da espacio arriba/abajo */
-    padding: 10px 20px;
+    display: block;      
+    width: fit-content;    
+    margin: 10px auto;    
+    padding: 10px 20px; 
 }
 
 button {
@@ -243,6 +243,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 10px;
     
     /* 1. La transición: hace que los cambios sean suaves y no de golpe */
     transition: all 0.2s ease; 
@@ -258,5 +259,12 @@ button:hover {
 button:active {
     transform: scale(0.95);    /* Se achica un poco, como si lo estuvieras pisando */
     background-color: #1e7e34;
+
 }
 
+input{
+    display: block;      
+    width: fit-content;
+    margin: 10px auto;
+    margin-top: 10px;
+}
