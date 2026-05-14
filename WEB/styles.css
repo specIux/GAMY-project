@@ -268,3 +268,12 @@ input{
     margin: 10px auto;
     margin-top: 10px;
 }
+
+div{
+    background: var(--medium-gray-color);
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 10%;
+    border-radius: 50px;
+}
