@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Miniver&family=Playwrite+NO:wght@100..400&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #faf4f5;
+    --medium-gray-color: #ccc;
+
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+
+    --font-weigth-normal: 400;
+    --font-weigth-medium: 500;
+    --font-weigth-semibold: 600;
+    --font-weigth-bold: 700;
+
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    --site-max-width: 1300px;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    color: var(--white-color);
+    margin-left: 35px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: var(--white-color);
+    padding-left: 20px;
+}
+
+h2 {
+    color: var(--white-color);
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* HEADER */
+header {
+    background: var(--dark-color);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-logo .logo-text {
+    color: var(--white-color);
+}
+
+.navbar .nav-menu .nav-link {
+    padding: 10px 18px;
+    transition: 0.5s ease;
+    font-size: var(--font-size-m);
+    color: var(--white-color);
+    border-radius: var(--border-radius-m);
+}
+
+.navbar .nav-menu .nav-link:hover {
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+
+/* MAIN */
+main {
+    background: var(--primary-color);
+    flex: 1;
+}
+
+/* FOOTER */
+footer {
+    background: var(--dark-color);
+}
+
+.contactos, a {
+    text-align: center;
+    color: var(--white-color);
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7) blur(1px);
+}
+
+/* SECCIONES */
+.historia, .productos {
+    padding-top: 20px;
+}
+
+.hist-info, .hist-imgs {
+    padding-left: 140px;
+}
+
+.subtitle_secondary {
+    margin-left: 25px;
+}
+
+/* PRODUCTOS */
+.contenedor-prod {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.prod-info {
+    flex: 1;
+}
+
+.prod-imgs {
+    flex: 0 0 45%;
+    padding-right: 100px;
+}
+
+.prod-imgs img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* IFRAME */
+iframe {
+    width: 100%;
+    height: 275px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+/* HISTORIA PAGE */
+.history-p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    text-align: justify;
+}
+
+.header2 {
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.contenedor-hist {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hist-info {
+    flex: 1;
+    padding-left: 0;
+}
+
+.hist-imgs {
+    flex: 0 0 45%;
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+.hist-imgs img {
+    width: 100%;
+    border-radius: 8px;
+}
+button {
+    display: block;      
+    width: fit-content;    
+    margin: 10px auto;    
+    padding: 10px 20px; 
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    /* 1. La transición: hace que los cambios sean suaves y no de golpe */
+    transition: all 0.2s ease; 
+}
+
+/* 2. Cuando el mouse pasa por arriba */
+button:hover {
+    background-color: #218838; /* Se pone un poco más oscuro */
+    transform: scale(1.05);    /* Se agranda un poquito (efecto visual) */
+}
+
+/* 3. Cuando hacés el clic (efecto de hundido) */
+button:active {
+    transform: scale(0.95);    /* Se achica un poco, como si lo estuvieras pisando */
+    background-color: #1e7e34;
+
+}
+
+input{
+    display: block;      
+    width: fit-content;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+
+div{
+    background: var(--medium-gray-color);
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 10%;
+    border-radius: 50px;
+}
