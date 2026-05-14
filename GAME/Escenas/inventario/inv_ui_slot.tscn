@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bouennabm0fcs"]
+
+[ext_resource type="Texture2D" uid="uid://cidc8316njfje" path="res://Assets/Sprites/inventory_TILE.png" id="1_ss1sd"]
+
+[node name="inv_UI_slot" type="Panel" unique_id=1233408097]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(16, 16)
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1869503211]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_ss1sd")
+centered = false

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://ddmox5wal24oa"]
+
+[ext_resource type="Script" uid="uid://78cbavh0obor" path="res://Escenas/inventario/inventory_item.gd" id="1_x7gwt"]
+[ext_resource type="Texture2D" uid="uid://c0w1wneo8h7t0" path="res://Assets/Sprites/item_TARAGUI.png" id="2_2sea1"]
+
+[resource]
+script = ExtResource("1_x7gwt")
+name = "taragui"
+texture = ExtResource("2_2sea1")
+metadata/_custom_type_script = "uid://78cbavh0obor"

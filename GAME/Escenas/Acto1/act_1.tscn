@@ -3,6 +3,8 @@
 [ext_resource type="TileSet" uid="uid://cisjux5cabqw6" path="res://Assets/Tile_sets/tile_set1.tres" id="1_xt5yn"]
 [ext_resource type="PackedScene" uid="uid://ueu0bg2cdidn" path="res://Escenas/Bordes/Bordes_act1.tscn" id="2_1t4u8"]
 [ext_resource type="PackedScene" uid="uid://21cc4pj8fxvv" path="res://Escenas/Personaje2test/player_2test.tscn" id="3_puq2l"]
+[ext_resource type="Resource" uid="uid://cloet8qwxyqep" path="res://Escenas/inventario/playerInv.tres" id="4_1t4u8"]
+[ext_resource type="PackedScene" uid="uid://bvnal8r4oyw4s" path="res://Escenas/inventario/inv_ui.tscn" id="5_puq2l"]
 
 [node name="Act1" type="Node2D" unique_id=2113643638]
 
@@ -70,4 +72,13 @@ tile_map_data = PackedByteArray("AAAAAOj/AwABAAEAAAAAABcAAwABAAEAAAABABcAAwAAAAA
 
 [node name="Player2TEST" parent="." unique_id=1133059201 instance=ExtResource("3_puq2l")]
 position = Vector2(0, 337)
+inv = ExtResource("4_1t4u8")
 speed = 200.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1779982642]
+offset = Vector2(413.915, 8.91)
+scale = Vector2(3.5, 3.5)
+transform = Transform2D(3.5, 0, 0, 3.5, 413.915, 8.91)
+follow_viewport_scale = 5.0
+
+[node name="Inv_UI" parent="CanvasLayer" unique_id=642686543 instance=ExtResource("5_puq2l")]

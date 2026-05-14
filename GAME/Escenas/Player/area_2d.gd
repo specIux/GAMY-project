@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+@export var inv: Inv
 # Velocidad de movimiento del personaje
 @export var speed: float = 100.0
 
