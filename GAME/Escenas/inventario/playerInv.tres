@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://78cbavh0obor" path="res://Escenas/inventario/inventory_item.gd" id="1_wja5q"]
 [ext_resource type="Resource" uid="uid://ddmox5wal24oa" path="res://Escenas/inventario/Items/taragui.tres" id="2_ewb4u"]
-[ext_resource type="Script" uid="uid://uswg7l27silr" path="res://Escenas/inventario/Items/inventory.gd" id="3_uf2io"]
+[ext_resource type="Script" uid="uid://uswg7l27silr" path="res://Escenas/inventario/Items/inventory.gd" id="3_wja5q"]
 
 [resource]
-script = ExtResource("3_uf2io")
-items = Array[ExtResource("1_wja5q")]([ExtResource("2_ewb4u"), null, null, null, null, null, null, null, null, null, null, null])
+script = ExtResource("3_wja5q")
+items = Array[ExtResource("1_wja5q")]([ExtResource("2_ewb4u"), null, null, null, null, null, null, ExtResource("2_ewb4u"), ExtResource("2_ewb4u"), null, null, ExtResource("2_ewb4u")])
 metadata/_custom_type_script = "uid://uswg7l27silr"

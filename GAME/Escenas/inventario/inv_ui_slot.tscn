@@ -1,14 +1,28 @@
 [gd_scene format=3 uid="uid://bouennabm0fcs"]
 
 [ext_resource type="Texture2D" uid="uid://cidc8316njfje" path="res://Assets/Sprites/inventory_TILE.png" id="1_ss1sd"]
+[ext_resource type="Script" uid="uid://vc0hcctoachl" path="res://Escenas/inventario/inv_ui_slot.gd" id="1_taio8"]
 
 [node name="inv_UI_slot" type="Panel" unique_id=1233408097]
 self_modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(16, 16)
 offset_right = 16.0
 offset_bottom = 16.0
+script = ExtResource("1_taio8")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1869503211]
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_ss1sd")
 centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=2099872457]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 0
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Panel" type="Panel" parent="CenterContainer" unique_id=1125980465]
+layout_mode = 2
+
+[node name="ItemDispay" type="Sprite2D" parent="CenterContainer/Panel" unique_id=765482086]
+scale = Vector2(0.7, 0.7)
