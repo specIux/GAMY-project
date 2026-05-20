@@ -4,7 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://dnk5x6we8kncb" path="res://Escenas/Personaje2test/new_sprite_frames.tres" id="2_pvljf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oqxq1"]
-size = Vector2(14, 27)
+size = Vector2(11.5, 7.25)
 
 [node name="Player2TEST" type="CharacterBody2D" unique_id=1133059201]
 script = ExtResource("1_pvljf")
@@ -12,11 +12,10 @@ script = ExtResource("1_pvljf")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1714524984]
 scale = Vector2(0.585, 0.585)
 sprite_frames = ExtResource("2_pvljf")
-animation = &"walk_down"
+animation = &"walk_left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=740347239]
-visible = false
-position = Vector2(1, 1.5)
+position = Vector2(0, 11.375)
 shape = SubResource("RectangleShape2D_oqxq1")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=613649045]
