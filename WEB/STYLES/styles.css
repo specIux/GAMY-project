@@ -229,6 +229,8 @@ iframe {
     width: 100%;
     border-radius: 8px;
 }
+
+
 button {
     display: block;      
     width: fit-content;    
@@ -267,5 +269,11 @@ input{
     width: fit-content;
     margin: 10px auto;
     margin-top: 10px;
-}
 
+}
+ 
+.login{
+    background-color: var(--medium-gray-color);
+     margin: 5%;
+
+}
