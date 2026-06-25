@@ -9,9 +9,9 @@
 
 :root {
     --white-color: #fff;
-    --dark-color: #252525;
-    --primary-color: #3b141c;
-    --secondary-color: #f3961c;
+    --dark-color: #0a0a0a;
+    --primary-color: #706464;
+    --secondary-color: #7a7876;
     --light-pink-color: #faf4f5;
     --medium-gray-color: #ccc;
 
@@ -261,19 +261,5 @@ button:hover {
 button:active {
     transform: scale(0.95);    /* Se achica un poco, como si lo estuvieras pisando */
     background-color: #1e7e34;
-
-}
-
-input{
-    display: block;      
-    width: fit-content;
-    margin: 10px auto;
-    margin-top: 10px;
-
-}
- 
-.login{
-    background-color: var(--medium-gray-color);
-     margin: 5%;
 
 }
