@@ -84,5 +84,11 @@ follow_viewport_scale = 5.0
 
 [node name="Inv_UI" parent="CanvasLayer" unique_id=642686543 instance=ExtResource("5_puq2l")]
 visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -576.0
+offset_right = -480.0
+grow_horizontal = 2
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=441131183]

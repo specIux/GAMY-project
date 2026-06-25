@@ -13,7 +13,6 @@ config_version=5
 config/name="Arepa Ride"
 run/main_scene="uid://pxdeq3vrq817"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
 
 [display]
 

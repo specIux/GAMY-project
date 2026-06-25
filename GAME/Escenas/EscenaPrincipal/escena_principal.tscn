@@ -40,7 +40,7 @@ offset_bottom = -42.843994
 grow_horizontal = 2
 grow_vertical = 0
 scale = Vector2(2.18, 2.18)
-text = "Haz click para empezar"
+text = "Toca cualquier boton para empezar"
 horizontal_alignment = 1
 vertical_alignment = 1
 
