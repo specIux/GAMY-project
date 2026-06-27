@@ -1,5 +1,5 @@
 extends CharacterBody2D
-
+#Inventario del jugador
 @export var inv: Inv
 # Velocidad de movimiento del personaje
 @export var speed: float = 100.0
@@ -51,3 +51,6 @@ func _update_animation(direction: Vector2) -> void:
 			animated_sprite.play("walk_down")
 		else:
 			animated_sprite.play("walk_up")
+
+func collect(item):
+	inv.insert(item)

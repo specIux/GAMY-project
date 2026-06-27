@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://21cc4pj8fxvv" path="res://Escenas/Personaje2test/player_2test.tscn" id="3_puq2l"]
 [ext_resource type="Resource" uid="uid://cloet8qwxyqep" path="res://Escenas/inventario/playerInv.tres" id="4_1t4u8"]
 [ext_resource type="PackedScene" uid="uid://bvnal8r4oyw4s" path="res://Escenas/inventario/inv_ui.tscn" id="5_puq2l"]
+[ext_resource type="PackedScene" uid="uid://b1xhvh7x0h12e" path="res://Escenas/Acto1/cofres.tscn" id="7_fg6vk"]
 
 [node name="Act1" type="Node2D" unique_id=2113643638]
 script = ExtResource("1_v0v5d")
@@ -74,6 +75,7 @@ tile_map_data = PackedByteArray("AAAAAOj/AwABAAEAAAAAABcAAwABAAEAAAABABcAAwAAAAA
 
 [node name="Player2TEST" parent="." unique_id=1133059201 instance=ExtResource("3_puq2l")]
 position = Vector2(0, 337)
+collision_mask = 5
 inv = ExtResource("4_1t4u8")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1779982642]
@@ -92,3 +94,12 @@ offset_right = -480.0
 grow_horizontal = 2
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=441131183]
+
+[node name="cofre" parent="." unique_id=915508072 instance=ExtResource("7_fg6vk")]
+position = Vector2(-88, 263)
+
+[node name="cofre2" parent="." unique_id=958211945 instance=ExtResource("7_fg6vk")]
+position = Vector2(-68, 263)
+
+[node name="cofre3" parent="." unique_id=1419425284 instance=ExtResource("7_fg6vk")]
+position = Vector2(-48, 263)
