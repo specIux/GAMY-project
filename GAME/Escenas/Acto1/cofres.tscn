@@ -3,9 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://iuw8bnc13ruc" path="res://Assets/Sprites/cofrebeta.png" id="1_7lhjx"]
 [ext_resource type="Script" uid="uid://c363pcjvwcujm" path="res://Escenas/Acto1/cofres.gd" id="1_522p0"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_522p0"]
-size = Vector2(15, 16)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_3tbdq"]
 atlas = ExtResource("1_7lhjx")
 region = Rect2(0, 0, 16, 16)
@@ -33,17 +30,28 @@ animations = [{
 "speed": 0.0
 }]
 
-[node name="cofre" type="Area2D" unique_id=915508072]
-collision_layer = 5
-collision_mask = 0
-collision_priority = 100.0
-script = ExtResource("1_522p0")
+[sub_resource type="CircleShape2D" id="CircleShape2D_522p0"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1671005198]
-scale = Vector2(0.995, 0.995)
-shape = SubResource("RectangleShape2D_522p0")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_522p0"]
+size = Vector2(16, 16)
+
+[node name="cofre" type="Area2D" unique_id=915508072]
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("1_522p0")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=472928468]
 sprite_frames = SubResource("SpriteFrames_8eypk")
 animation = &"closed"
 autoplay = "closed"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1671005198]
+visible = false
+shape = SubResource("CircleShape2D_522p0")
+debug_color = Color(0.99362713, 0, 0.24164012, 0.41960785)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=425010454]
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1788077922]
+shape = SubResource("RectangleShape2D_522p0")

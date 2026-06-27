@@ -11,8 +11,8 @@ size = Vector2(11.5, 7.25)
 size = Vector2(12, 29)
 
 [node name="Player2TEST" type="CharacterBody2D" unique_id=1133059201]
+z_index = 50
 script = ExtResource("1_pvljf")
-speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1714524984]
 scale = Vector2(0.585, 0.585)
