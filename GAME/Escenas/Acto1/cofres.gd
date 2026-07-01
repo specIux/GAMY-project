@@ -6,6 +6,9 @@ var isOpen = false
 
 func interact():
 	if isOpen == false:
+		print ("+1 item")
 		animated_sprite_2d.play("open")
-		await animated_sprite_2d.animation_finished
-		isOpen == true
+		isOpen = true
+	else: if isOpen == true:
+		pass
+	  

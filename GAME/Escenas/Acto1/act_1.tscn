@@ -99,7 +99,7 @@ grow_horizontal = 2
 position = Vector2(-88, 263)
 
 [node name="cofre2" parent="." unique_id=958211945 instance=ExtResource("7_fg6vk")]
-position = Vector2(-68, 263)
+position = Vector2(79, 263)
 
 [node name="cofre3" parent="." unique_id=1419425284 instance=ExtResource("7_fg6vk")]
-position = Vector2(-48, 263)
+position = Vector2(129, -243)
