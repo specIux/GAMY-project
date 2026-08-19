@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://dn0x54kf4jqbi"]
+
+[ext_resource type="Script" uid="uid://oh6hgab1fxc5" path="res://Escenas/Personaje/personaje.gd" id="1_m7mpd"]
+[ext_resource type="Texture2D" uid="uid://dikaop4nchj18" path="res://assets/sprites/mago_spritesheet.png" id="1_say8f"]
+[ext_resource type="Material" uid="uid://cd48lv6f6apgg" path="res://Escenas/Personaje/material_personaje_rojo.tres" id="2_o4m3h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m7mpd"]
+atlas = ExtResource("1_say8f")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4m3h"]
+atlas = ExtResource("1_say8f")
+region = Rect2(16, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t3p4y"]
+atlas = ExtResource("1_say8f")
+region = Rect2(32, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l5pty"]
+atlas = ExtResource("1_say8f")
+region = Rect2(48, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7l7hq"]
+atlas = ExtResource("1_say8f")
+region = Rect2(64, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r43gt"]
+atlas = ExtResource("1_say8f")
+region = Rect2(0, 0, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38xcg"]
+atlas = ExtResource("1_say8f")
+region = Rect2(0, 20, 16, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2b4s8"]
+atlas = ExtResource("1_say8f")
+region = Rect2(16, 20, 16, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kwjoo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m7mpd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4m3h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t3p4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l5pty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7l7hq")
+}],
+"loop": true,
+"name": &"Correr",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r43gt")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38xcg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2b4s8")
+}],
+"loop": true,
+"name": &"Saltar",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xecjw"]
+size = Vector2(14, 14)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m7mpd"]
+size = Vector2(14, 14)
+
+[node name="Personaje" type="CharacterBody2D" unique_id=415479431 node_paths=PackedStringArray("area_2d", "animacion")]
+collision_layer = 4
+script = ExtResource("1_m7mpd")
+area_2d = NodePath("Area2D")
+animacion = NodePath("Animacion")
+material_personaje_rojo = ExtResource("2_o4m3h")
+
+[node name="Animacion" type="AnimatedSprite2D" parent="." unique_id=996874150]
+sprite_frames = SubResource("SpriteFrames_kwjoo")
+animation = &"Correr"
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2144710662]
+shape = SubResource("RectangleShape2D_xecjw")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=814052464]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1764356524]
+shape = SubResource("RectangleShape2D_m7mpd")

@@ -1,0 +1,108 @@
+[gd_scene format=4 uid="uid://l7vv12qv1qaq"]
+
+[ext_resource type="PackedScene" uid="uid://ua0k3nvwih47" path="res://Escenas/Bordes/bordes.tscn" id="1_kjefj"]
+[ext_resource type="TileSet" uid="uid://m8uwcjmd8x58" path="res://tile_sets/mazmorra.tres" id="2_rvku2"]
+[ext_resource type="PackedScene" uid="uid://dn0x54kf4jqbi" path="res://Escenas/Personaje/personaje.tscn" id="3_efdes"]
+[ext_resource type="PackedScene" uid="uid://dejdy6mkt68o6" path="res://Escenas/Contenedor moneda/contenedor_monedas.tscn" id="4_kubph"]
+[ext_resource type="PackedScene" uid="uid://d0fnv0ka47le" path="res://Escenas/Moneda/moneda.tscn" id="5_3ffty"]
+[ext_resource type="PackedScene" uid="uid://7ikduup883mk" path="res://Escenas/Trampa corta/trampa_corto_alcance.tscn" id="6_rvku2"]
+[ext_resource type="PackedScene" uid="uid://bpsbpdi8g34we" path="res://Escenas/Trampa/trampa.tscn" id="7_efdes"]
+
+[node name="Nivel4" type="Node2D" unique_id=247219247]
+
+[node name="Bordes" parent="." unique_id=976392473 instance=ExtResource("1_kjefj")]
+tile_map_data = PackedByteArray("AADy/wAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAPj/AAAAAAAAAAAAAAcAAAAAAAAAAAD//wcAAAAAAAAAAAD+/wcAAAAAAAAAAAD9/wcAAAAAAAAAAAD8/wcAAAAAAAAAAAD7/wcAAAAAAAAAAAD6/wcAAAAAAAAAAAD5/wcAAAAAAAAAAAD4/wcAAAAAAAAAAAD3/wcAAAAAAAAAAAD2/wcAAAAAAAAAAAD1/wcAAAAAAAAAAAD0/wcAAAAAAAAAAADz/wcAAAAAAAAAAADy/wcAAAAAAAAAAADy/wYAAAAAAAAAAADy/wUAAAAAAAAAAADy/wQAAAAAAAAAAADy/wMAAAAAAAAAAADy/wIAAAAAAAAAAADy/wEAAAAAAAAAAAABAAcAAAAAAAAAAAACAAcAAAAAAAAAAAADAAcAAAAAAAAAAAAEAAcAAAAAAAAAAAAFAAcAAAAAAAAAAAAGAAcAAAAAAAAAAAAHAAcAAAAAAAAAAAAIAAcAAAAAAAAAAAAJAAcAAAAAAAAAAAAKAAcAAAAAAAAAAAALAAcAAAAAAAAAAAAMAAcAAAAAAAAAAAANAAcAAAAAAAAAAAANAAYAAAAAAAAAAAANAAUAAAAAAAAAAAANAAQAAAAAAAAAAAANAAMAAAAAAAAAAAANAAIAAAAAAAAAAAANAAEAAAAAAAAAAAANAP//AAAAAAAAAAANAP7/AAAAAAAAAAANAP3/AAAAAAAAAAANAPz/AAAAAAAAAAANAPv/AAAAAAAAAAANAPr/AAAAAAAAAAANAPn/AAAAAAAAAAANAPj/AAAAAAAAAAAMAPj/AAAAAAAAAAALAPj/AAAAAAAAAAAKAPj/AAAAAAAAAAAJAPj/AAAAAAAAAAAIAPj/AAAAAAAAAAAHAPj/AAAAAAAAAAAGAPj/AAAAAAAAAAAFAPj/AAAAAAAAAAAEAPj/AAAAAAAAAAADAPj/AAAAAAAAAAACAPj/AAAAAAAAAAABAPj/AAAAAAAAAAD///j/AAAAAAAAAAD+//j/AAAAAAAAAAD9//j/AAAAAAAAAAD8//j/AAAAAAAAAAD7//j/AAAAAAAAAAD6//j/AAAAAAAAAADy//j/AAAAAAAAAADy//n/AAAAAAAAAADy//r/AAAAAAAAAADy//v/AAAAAAAAAADy//z/AAAAAAAAAADy//3/AAAAAAAAAADy//7/AAAAAAAAAADy////AAAAAAAAAAA=")
+
+[node name="Nivel" type="TileMapLayer" parent="." unique_id=300970001]
+tile_map_data = PackedByteArray("AAD1/wYAAAACAAEAAAD3/wYAAAACAAEAAAD5/wYAAAACAAEAAAD7/wYAAAACAAEAAAD9/wYAAAACAAEAAAD//wYAAAACAAEAAAABAAYAAAACAAEAAAADAAYAAAACAAEAAAAFAAYAAAACAAEAAAAHAAYAAAACAAEAAAAJAAYAAAACAAEAAAALAAYAAAACAAEAAAAMAAQAAAACAAAAAAAMAAUAAAACAAAAADAKAAIAAAACAAAAAAAGAAMAAAACAAAAAAADAAEAAAACAAAAAAAHAP//AAACAAAAAAACAP7/AAACAAAAAAD9//7/AAACAAAAAAABAP7/AAADAAEAAAAAAP7/AAADAAEAAAD///7/AAADAAEAAAD+//7/AAADAAEAAAD8//3/AAAAAAEAAAD8//z/AAAAAAEAAAD8//v/AAAAAAEAAAD8//r/AAAAAAEAAAD8//7/AAAAAAAAAAABAP//AAAAAAAAAAAAAP//AAAAAAAAAAD/////AAAAAAAAAAD+////AAAAAAAAAAD9////AAAAAAAAAAD8////AAAAAAAAAAD7////AAAAAAAAAAD7//7/AAAAAAAAAAD7//3/AAAAAAAAAAD7//z/AAAAAAAAAAD7//v/AAAAAAAAAAD7//r/AAAAAAAAAAD+//v/AAACAAAAADD6//r/AAACAAIAAAD6//v/AAACAAIAAAD6//z/AAACAAIAAAD6//3/AAACAAIAAAD6//7/AAACAAIAAAD6////AAACAAIAAAD7/wAAAAADAAAAAAD8/wAAAAADAAAAAAD9/wAAAAADAAAAAAD+/wAAAAADAAAAAAD//wAAAAADAAAAAAAAAAAAAAADAAAAAAABAAAAAAADAAAAAAD5//3/AAABAAAAAAD4//3/AAABAAAAAAD3//3/AAABAAAAAAD2//3/AAABAAAAAAD1//3/AAABAAAAAAD0//3/AAABAAAAAADz////AAABAAAAAAD0////AAABAAAAAAD1////AAABAAAAAAD2////AAABAAAAAAD3////AAABAAAAAAD4////AAABAAAAAAD5/wEAAAABAAAAAAD4/wEAAAABAAAAAAD3/wEAAAABAAAAAAD2/wEAAAABAAAAAAD1/wEAAAABAAAAAAD0/wEAAAABAAAAAADz/wEAAAABAAAAAAD5/wIAAAADAAAAAAD4/wIAAAADAAAAAAD3/wIAAAADAAAAAAD2/wIAAAADAAAAAAD1/wIAAAADAAAAAAD0/wIAAAADAAAAAADz/wIAAAADAAAAAAD5//7/AAADAAAAAAD4//7/AAADAAAAAAD3//7/AAADAAAAAAD2//7/AAADAAAAAAD1//7/AAADAAAAAAD0//7/AAADAAAAAADz/wAAAAADAAAAAAD0/wAAAAADAAAAAAD1/wAAAAADAAAAAAD2/wAAAAADAAAAAAD3/wAAAAADAAAAAAD4/wAAAAADAAAAAAA=")
+tile_set = ExtResource("2_rvku2")
+
+[node name="Personaje" parent="." unique_id=415479431 instance=ExtResource("3_efdes")]
+position = Vector2(-193, 105)
+
+[node name="ContenedorMonedas" parent="." unique_id=1774504591 instance=ExtResource("4_kubph")]
+
+[node name="Moneda" parent="ContenedorMonedas" unique_id=1090709102 instance=ExtResource("5_3ffty")]
+position = Vector2(-56, 88)
+
+[node name="Moneda2" parent="ContenedorMonedas" unique_id=1907432916 instance=ExtResource("5_3ffty")]
+position = Vector2(-120, 88)
+
+[node name="Moneda4" parent="ContenedorMonedas" unique_id=1470383980 instance=ExtResource("5_3ffty")]
+position = Vector2(-153, 88)
+
+[node name="Moneda3" parent="ContenedorMonedas" unique_id=1245856184 instance=ExtResource("5_3ffty")]
+position = Vector2(-88, 88)
+
+[node name="Moneda5" parent="ContenedorMonedas" unique_id=1159276897 instance=ExtResource("5_3ffty")]
+position = Vector2(-24, 88)
+
+[node name="Moneda6" parent="ContenedorMonedas" unique_id=957693879 instance=ExtResource("5_3ffty")]
+position = Vector2(40, 88)
+
+[node name="Moneda7" parent="ContenedorMonedas" unique_id=2130442395 instance=ExtResource("5_3ffty")]
+position = Vector2(72, 88)
+
+[node name="Moneda8" parent="ContenedorMonedas" unique_id=764660145 instance=ExtResource("5_3ffty")]
+position = Vector2(8, 88)
+
+[node name="Moneda9" parent="ContenedorMonedas" unique_id=1183943382 instance=ExtResource("5_3ffty")]
+position = Vector2(104, 88)
+
+[node name="Moneda10" parent="ContenedorMonedas" unique_id=817198226 instance=ExtResource("5_3ffty")]
+position = Vector2(136, 88)
+
+[node name="Moneda11" parent="ContenedorMonedas" unique_id=1747308801 instance=ExtResource("5_3ffty")]
+position = Vector2(168, 88)
+
+[node name="Moneda12" parent="ContenedorMonedas" unique_id=1504345701 instance=ExtResource("5_3ffty")]
+position = Vector2(104, 28)
+
+[node name="Moneda13" parent="ContenedorMonedas" unique_id=1820673807 instance=ExtResource("5_3ffty")]
+position = Vector2(120, -35)
+
+[node name="Moneda14" parent="ContenedorMonedas" unique_id=63608003 instance=ExtResource("5_3ffty")]
+position = Vector2(-40, -51)
+
+[node name="Moneda15" parent="ContenedorMonedas" unique_id=1352607256 instance=ExtResource("5_3ffty")]
+position = Vector2(-120, -52)
+
+[node name="Moneda17" parent="ContenedorMonedas" unique_id=392972152 instance=ExtResource("5_3ffty")]
+position = Vector2(-168, -20)
+
+[node name="Moneda19" parent="ContenedorMonedas" unique_id=200029972 instance=ExtResource("5_3ffty")]
+position = Vector2(-192, 13)
+
+[node name="Fondo" type="TileMapLayer" parent="." unique_id=1994206045]
+z_index = -1
+tile_map_data = PackedByteArray("AAD3/wUAAAAAAAMAAAD5/wQAAAAAAAMAAAD8/wMAAAAAAAMAAAD7/wIAAAAAAAMAAAD1/wMAAAAAAAMAAAD0/wQAAAAAAAMAAAD//wUAAAAAAAMAAAD+/wEAAAAAAAMAAAAAAAIAAAAAAAMAAAD4/wAAAAAAAAMAAADz//7/AAAAAAMAAAD1//z/AAAAAAMAAADz//r/AAAAAAMAAAD2//r/AAAAAAMAAAD5//z/AAAAAAMAAAD6//n/AAAAAAMAAAABAPv/AAAAAAMAAAADAPz/AAAAAAMAAAAEAPn/AAAAAAMAAAD+//r/AAAAAAMAAAAAAP3/AAAAAAMAAAAKAPv/AAAAAAMAAAAIAPr/AAAAAAMAAAAHAPz/AAAAAAMAAAAMAP//AAAAAAMAAAAJAAAAAAAAAAMAAAAFAP7/AAAAAAMAAAAEAAMAAAAAAAMAAAAKAAQAAAAAAAMAAAAHAAEAAAAAAAMAAAALAAMAAAAAAAMAAAAMAAEAAAAAAAMAAAAHAAUAAAAAAAMAAAADAAYAAAAAAAMAAAACAAQAAAAAAAMAAAADAAAAAAAAAAMAAAD7/wUAAAAAAAMAAAD6/wAAAAAAAAMAAADz//n/AAABAAMAAAAKAP7/AAABAAMAAAALAPr/AAABAAMAAAADAPv/AAABAAMAAAAFAAMAAAABAAMAAAAAAAMAAAABAAMAAAD9/wIAAAABAAMAAAD0/wAAAAABAAMAAAD3/wEAAAABAAMAAAD8/wYAAAABAAMAAAAAAPr/AAABAAMAAAAIAPn/AAABAAMAAAAGAPr/AAACAAMAAAAIAAMAAAABAAMAAAAMAPn/AAACAAMAAAAMAPr/AAACAAMAAAAMAPv/AAACAAMAAAAGAPn/AAACAAMAAAAGAPv/AAACAAMAAAACAPn/AAACAAMAAAACAPr/AAACAAMAAAACAPv/AAACAAMAAAACAP3/AAACAAMAAAACAPz/AAACAAMAAAACAP7/AAACAAMAAAACAP//AAACAAMAAAACAAAAAAACAAMAAAACAAEAAAACAAMAAAD//wAAAAACAAMAAAD//wEAAAACAAMAAAD//wIAAAACAAMAAAD9//n/AAACAAMAAAD9//r/AAACAAMAAAD9//v/AAACAAMAAAD4//j/AAAAAAMAAAD0//j/AAAAAAMAAAA=")
+tile_set = ExtResource("2_rvku2")
+
+[node name="Trampa corto alcance" parent="." unique_id=1652427554 instance=ExtResource("6_rvku2")]
+position = Vector2(-104, -120)
+
+[node name="Trampa corto alcance2" parent="." unique_id=1391992064 instance=ExtResource("6_rvku2")]
+position = Vector2(-120, -120)
+
+[node name="Trampa corto alcance3" parent="." unique_id=1396930408 instance=ExtResource("6_rvku2")]
+position = Vector2(-136, -120)
+
+[node name="Trampa corto alcance4" parent="." unique_id=1336975884 instance=ExtResource("6_rvku2")]
+position = Vector2(-152, -120)
+
+[node name="Trampa corto alcance5" parent="." unique_id=1588610122 instance=ExtResource("6_rvku2")]
+position = Vector2(-168, -120)
+
+[node name="Trampa corto alcance6" parent="." unique_id=308447036 instance=ExtResource("6_rvku2")]
+position = Vector2(-184, -120)
+
+[node name="Trampa corto alcance7" parent="." unique_id=1131956299 instance=ExtResource("6_rvku2")]
+position = Vector2(-200, -120)
+
+[node name="Trampa corto alcance9" parent="." unique_id=242621277 instance=ExtResource("6_rvku2")]
+position = Vector2(40, -120)
+collision_mask = 4
+
+[node name="Trampa" parent="." unique_id=69306171 instance=ExtResource("7_efdes")]
+position = Vector2(120, -280)
+collision_mask = 4
