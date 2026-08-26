@@ -2,14 +2,17 @@
 
 [ext_resource type="Script" uid="uid://3kw5mdjddeyk" path="res://Escenas/Principal/escena_principal.gd" id="1_h4kvd"]
 [ext_resource type="PackedScene" uid="uid://bfrmbt5yvv8ou" path="res://Escenas/nivel_1/nivel_1.tscn" id="1_mbnui"]
+[ext_resource type="PackedScene" uid="uid://b8nknl6hs1y53" path="res://Escenas/nivel_5/nivel_5.tscn" id="2_8ftwf"]
 [ext_resource type="PackedScene" uid="uid://l7vv12qv1qaq" path="res://Escenas/nivel_4/nivel_4.tscn" id="2_kwb37"]
 [ext_resource type="PackedScene" uid="uid://dv08fwjyoa8jo" path="res://Escenas/nivel_3/nivel_3.tscn" id="2_obaer"]
 [ext_resource type="PackedScene" uid="uid://c0d7sxiu0iigo" path="res://Escenas/nivel_2/nivel_2.tscn" id="3_am1f6"]
 [ext_resource type="PackedScene" uid="uid://cvuacnlt24efk" path="res://Escenas/Final/escena_final.tscn" id="4_ch121"]
+[ext_resource type="PackedScene" uid="uid://dm6iyaacku2bn" path="res://Escenas/Contador_muertes/contador_de_muertes.tscn" id="5_ui"]
 
 [node name="EscenaPrincipal" type="Node2D" unique_id=1783562684]
 script = ExtResource("1_h4kvd")
-niveles = Array[PackedScene]([ExtResource("1_mbnui"), ExtResource("3_am1f6"), ExtResource("2_obaer"), ExtResource("2_kwb37"), ExtResource("4_ch121")])
+niveles = Array[PackedScene]([ExtResource("1_mbnui"), ExtResource("3_am1f6"), ExtResource("2_obaer"), ExtResource("2_kwb37"), ExtResource("2_8ftwf"), ExtResource("4_ch121")])
+ui_muertes = ExtResource("5_ui")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=912569704]
 zoom = Vector2(2.415, 2.415)

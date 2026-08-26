@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Test multiplataformero"
-run/main_scene="uid://clf2bmju306qs"
-config/features=PackedStringArray("4.6", "GL Compatibility")
+run/main_scene="res://Escenas/Menu/menu_principal.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+ContadorMuertes="*res://Escenas/Contador_muertes/contador_muertes.gd"
 
 [input]
 

@@ -1,0 +1,128 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Escenas/Menu/menu_principal.gd" id="1_menu"]
+
+[node name="MenuPrincipal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="Fondo" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0862745, 0.0862745, 0.129412, 1)
+
+[node name="MenuBotones" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -140.0
+offset_right = 160.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+
+[node name="Titulo" type="Label" parent="MenuBotones"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "TEST MULTIPLATAFORMERO"
+horizontal_alignment = 1
+
+[node name="EspacioTitulo" type="Control" parent="MenuBotones"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="BotonJugar" type="Button" parent="MenuBotones"]
+custom_minimum_size = Vector2(280, 46)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Jugar"
+
+[node name="BotonOpciones" type="Button" parent="MenuBotones"]
+custom_minimum_size = Vector2(280, 46)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Opciones"
+
+[node name="BotonSalir" type="Button" parent="MenuBotones"]
+custom_minimum_size = Vector2(280, 46)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Salir"
+
+[node name="SelectorNiveles" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -130.0
+offset_right = 160.0
+offset_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="TituloNiveles" type="Label" parent="SelectorNiveles"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "SELECCIONAR NIVEL"
+horizontal_alignment = 1
+
+[node name="BotonesNiveles" type="GridContainer" parent="SelectorNiveles"]
+layout_mode = 2
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 12
+columns = 2
+
+[node name="Nivel1" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+custom_minimum_size = Vector2(154, 42)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nivel 1"
+
+[node name="Nivel2" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+custom_minimum_size = Vector2(154, 42)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nivel 2"
+
+[node name="Nivel3" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+custom_minimum_size = Vector2(154, 42)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nivel 3"
+
+[node name="Nivel4" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+custom_minimum_size = Vector2(154, 42)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nivel 4"
+
+[node name="Nivel5" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+custom_minimum_size = Vector2(154, 42)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Nivel 5"
+
+[node name="BotonVolver" type="Button" parent="SelectorNiveles"]
+custom_minimum_size = Vector2(280, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Volver"

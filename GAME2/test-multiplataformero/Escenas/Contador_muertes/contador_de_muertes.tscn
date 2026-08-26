@@ -1,3 +1,15 @@
-[gd_scene format=3 uid="uid://dm6iyaacku2bn"]
+[gd_scene load_steps=2 format=3 uid="uid://dm6iyaacku2bn"]
 
-[node name="Contador de muertes" type="Node2D" unique_id=1880048769]
+[ext_resource type="Script" path="res://Escenas/Contador_muertes/contador_ui.gd" id="1_ui"]
+
+[node name="ContadorMuertesUI" type="CanvasLayer"]
+script = ExtResource("1_ui")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 200.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Muertes: 0"
