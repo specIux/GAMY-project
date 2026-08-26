@@ -7,8 +7,8 @@ Los lenguajes utilizados fueron:
 - HTML / CSS
 - GDScript
 
-# ArepaRide
-ArepaRide es el juego en desarrollo por el grupo GAMY, este va a ser un videojuego en 2D de categoría RPG [GAME](GAME/)
+# MultiPlataformero
+Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME2](GAME2/)
 
 # LICENCIA
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
