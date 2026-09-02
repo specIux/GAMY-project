@@ -461,6 +461,29 @@ button:active {
 }
 
 @media (max-width: 700px) {
+    header .navbar {
+        padding: 14px 16px;
+    }
+
+    .navbar .nav-logo .logo-text {
+        font-size: 1.35rem;
+    }
+
+    .navbar .nav-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+
+    .navbar .nav-menu .nav-link {
+        padding: 8px 9px;
+        font-size: 0.82rem;
+    }
+
+    .banner {
+        height: clamp(240px, 58vw, 360px);
+    }
+
     .historia,
     .productos {
         padding: 48px 16px;
@@ -477,5 +500,23 @@ button:active {
 
     .prod-imgs {
         flex-basis: auto;
+    }
+
+    .team-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .member-card {
+        min-height: 0;
+    }
+
+    .contactos {
+        padding: 20px 16px;
+    }
+
+    .contactos a {
+        display: inline-block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
     }
 }
