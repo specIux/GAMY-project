@@ -18,7 +18,7 @@ Las personas designadas del grupo que han trabajado en el proyecto son:
 - Fazyhub666
 
 # LICENCIA
-Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
+Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/)
 
 
 
