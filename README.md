@@ -12,7 +12,7 @@ Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas
 
 #Contribuidores
 Las personas designadas del grupo que han trabajado en el proyecto son:
-- SpacIux
+- SpecIux
 - Xen-alt10
 - M0ladora
 - Fazyhub666
