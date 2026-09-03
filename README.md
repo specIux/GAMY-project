@@ -10,7 +10,7 @@ Los lenguajes utilizados fueron:
 # MultiPlataformero
 Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME2](GAME2/)
 
-#Contribuidores
+# Contribuidores
 Las personas designadas del grupo que han trabajado en el proyecto son:
 - SpecIux
 - Xen-alt10
