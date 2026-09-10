@@ -10,7 +10,7 @@ A lo largo del proyecto hemos utilizados multiples lenguajes de programacion par
 Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME](GAME/)
 
 # Contribuidores
-Las personas designadas del grupo que han trabajado en el proyecto son:
+Los [contribuidores](/https://github.com/specIux/GAMY-project/graphs/contributors?all=1) de este proyecto son:
 - SpecIux
 - Xen-alt10
 - M0ladora
