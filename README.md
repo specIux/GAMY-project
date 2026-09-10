@@ -1,5 +1,5 @@
 # GAMY-project
-Este repositorio va a estar destinado a toda la información aportada para nuestro proyecto, tanto los codigos fuente (.html , .gdscript , entre otros) al igual que toda la información necesaria para nuestro trabajo.
+GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
 
 # Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
@@ -7,7 +7,7 @@ A lo largo del proyecto hemos utilizados multiples lenguajes de programacion par
 - JavaScript
 
 # MultiPlataformero
-Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME2](GAME2/)
+Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME](GAME/)
 
 # Contribuidores
 Las personas designadas del grupo que han trabajado en el proyecto son:
