@@ -4,6 +4,12 @@ GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor 
 >[!Warning]
 >Este juego es extremadamente dificil a pesar de su simpleza
 
+>[!Tip]
+>El futuro es hoy
+
+>[!Note]
+>Programacion 
+
 # Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
 - CSS / HTML
