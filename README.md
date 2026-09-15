@@ -1,7 +1,7 @@
 # GAMY-project
 GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
 
->[!Note]
+>[!Warning]
 >Este juego es extremadamente dificil a pesar de su simpleza
 
 # Lenguajes Utilizados
