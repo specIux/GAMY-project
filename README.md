@@ -1,6 +1,9 @@
 # GAMY-project
 GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
 
+>[!Note]
+>Este juego es extremadamente dificl a pesar de su simpleza
+
 # Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
 - CSS / HTML
