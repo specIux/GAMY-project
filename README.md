@@ -23,6 +23,5 @@ Las personas encargadas de trabajar en este proyecto son:
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
 
 
-socorro no puedo clonar el repositorio
      
 
