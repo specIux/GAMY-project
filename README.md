@@ -1,12 +1,6 @@
 # GAMY-project
 GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
 
->[!Warning]
->Este juego es extremadamente dificil a pesar de su simpleza
-
->[!Tip]
->El futuro es hoy
-
 >[!Note]
 >Programacion 
 
@@ -21,6 +15,9 @@ Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas
 ## Características: 
 - Juego en 2D
 - Múltiples niveles con dificultad
+
+>[!Warning]
+>Este juego es extremadamente dificil a pesar de su simpleza
 
 # Contribuidores
 Las personas encargadas de trabajar en este proyecto son:
