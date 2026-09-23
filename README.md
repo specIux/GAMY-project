@@ -2,7 +2,7 @@
 GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
 
 >[!Note]
->Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/)
+>Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA IR A DESCARGAR LA APLICACION
 
 # Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
