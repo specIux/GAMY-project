@@ -16,9 +16,6 @@ Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas
 - Juego en 2D
 - Múltiples niveles con dificultad
 
->[!Warning]
->Este juego es extremadamente dificil a pesar de su simpleza
-
 # Contribuidores
 Las personas encargadas de trabajar en este proyecto son:
 - SpecIux
