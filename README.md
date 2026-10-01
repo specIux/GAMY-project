@@ -7,7 +7,6 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 [![Godot](https://img.shields.io/badge/Godot-4.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20%7C%20Web-orange.svg)]()
-[![Lines of Code](https://tokei.rs/b1/github/specIux/GAMY-project)](https://github.com/specIux/GAMY-project/tree/main)
 [![Last Commit](https://img.shields.io/github/last-commit/specIux/GAMY-project)](https://github.com/specIux/GAMY-project/commits/main/)  
 
   
