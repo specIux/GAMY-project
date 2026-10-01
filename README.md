@@ -127,7 +127,7 @@ GAMY-project
 
 ```
 
-<div align="center">
+
 
 ## Contribuidores
 
