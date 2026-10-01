@@ -131,7 +131,6 @@ GAMY-project
 
 ## Contribuidores
 
-<div align="center">
 
 <table>
 <tr>
@@ -141,8 +140,7 @@ GAMY-project
   <td align="center"><a href="https://github.com/M0l4dora"><img src="https://images.weserv.nl/?url=https://github.com/M0l4dora.png&h=80&w=80&fit=cover&mask=circle" width="80px" alt=""/><br /><sub><b>M0l4dora</b></sub></a></td>
 </tr>
 </table>
-
-</div>      
+      
 
 ## Licencia
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
