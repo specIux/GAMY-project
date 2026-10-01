@@ -127,12 +127,20 @@ GAMY-project
 
 ```
 
-## Contruibuidores
+<div align="center">
 
-- Xen-alt10
-- SpecIux
-- Fazyhub666
-- M0ladora
+## Contribuidores
+
+<table>
+<tr>
+  <td align="center"><a href="https://github.com/Xen-alt10"><img src="https://github.com/Xen-alt10.png" width="80px;" alt=""/><br /><sub><b>Xen-alt10</b></sub></a></td>
+  <td align="center"><a href="https://github.com/SpecIux"><img src="https://github.com/SpecIux.png" width="80px;" alt=""/><br /><sub><b>SpecIux</b></sub></a></td>
+  <td align="center"><a href="https://github.com/Fazyhub666"><img src="https://github.com/Fazyhub666.png" width="80px;" alt=""/><br /><sub><b>Fazyhub666</b></sub></a></td>
+  <td align="center"><a href="https://github.com/M0ladora"><img src="https://github.com/M0ladora.png" width="80px;" alt=""/><br /><sub><b>M0ladora</b></sub></a></td>
+</tr>
+</table>
+
+</div>   
 
 ## Licencia
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
