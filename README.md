@@ -2,12 +2,12 @@
 
 # MultiPlataformero
 
-...
+MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles) 
 
 [![Godot](https://img.shields.io/badge/Godot-4.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20%7C%20Web-orange.svg)]()
-[![Commits](https://img.shields.io/github/commit-activity/w/TU_USUARIO/GAMY-project)](https://github.com/TU_USUARIO/GAMY-project/commits)
+[![Commits](https://img.shields.io/github/commit-activity/w/specIux/GAMY-project)](https://github.com/specIux/GAMY-project/commits/main/)
 
 </div>     
 
