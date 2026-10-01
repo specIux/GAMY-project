@@ -136,7 +136,7 @@ GAMY-project
   <td align="center"><a href="https://github.com/Xen-alt10"><img src="https://github.com/Xen-alt10.png" width="80px;" alt=""/><br /><sub><b>Xen-alt10</b></sub></a></td>
   <td align="center"><a href="https://github.com/SpecIux"><img src="https://github.com/SpecIux.png" width="80px;" alt=""/><br /><sub><b>SpecIux</b></sub></a></td>
   <td align="center"><a href="https://github.com/Fazyhub666"><img src="https://github.com/Fazyhub666.png" width="80px;" alt=""/><br /><sub><b>Fazyhub666</b></sub></a></td>
-  <td align="center"><a href="https://github.com/M0ladora"><img src="https://github.com/M0ladora.png" width="80px;" alt=""/><br /><sub><b>M0ladora</b></sub></a></td>
+  <td align="center"><a href="https://github.com/M0l4dora"><img src="https://github.com/M0l4dora.png" width="80px;" alt=""/><br /><sub><b>M0l4dora</b></sub></a></td>
 </tr>
 </table>
 
