@@ -1,22 +1,15 @@
-# GAMY-project
-GAMY-project son un grupo de desarrolladores de videojuegos utilizando el motor gráfico Godot Engine
+# MultiPlataformero
+Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME](GAME/)
 
 >[!Note]
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
 
-# Lenguajes Utilizados
+## Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
 - CSS / HTML
 - JavaScript
 
-# MultiPlataformero
-Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME](GAME/)
-
-## Características: 
-- Juego en 2D
-- Múltiples niveles con dificultad
-
-# Estructuras de Carpetas
+## Estructuras de Carpetas
 
 ```
 GAMY-project
@@ -120,14 +113,14 @@ GAMY-project
 
 ```
 
-## Contribuidores
+## Contruibuidores
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-| [![SpecIux](https://github.com/SpecIux.png)](https://github.com/SpecIux) | [![Xen-alt10](https://github.com/Xen-alt10.png)](https://github.com/Xen-alt10) | [![M0ladora](https://github.com/M0ladora.png)](https://github.com/M0ladora) | [![Fazyhub666](https://github.com/Fazyhub666.png)](https://github.com/Fazyhub666) |
-| SpecIux | Xen-alt10 | M0ladora | Fazyhub666 |   
+- Xen-alt10
+- SpecIux
+- Fazyhub666
+- M0ladora
 
-# LICENCIA
+## LICENCIA
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
 
 
