@@ -18,16 +18,13 @@ A lo largo del proyecto hemos utilizados multiples lenguajes de programacion par
 - CSS / HTML
 - JavaScript
 
-Y se pueden observar en la siguiente carpeta: [GAME](GAME/)
+Y se pueden observar en la siguiente carpeta: [GAME](/arcade_game)
 
 ## Estructuras de Carpetas
 
 ```
 GAMY-project
-├─ docs
-│  ├─ Informe GAMY - v.0.2.0 BORRADOR.pdf
-│  └─ INFORME-APA.md
-├─ game
+├─ arcade_game
 │  ├─ README.md
 │  └─ test-multiplataformero
 │     ├─ .editorconfig
@@ -107,10 +104,13 @@ GAMY-project
 │     │  └─ shader_rojo.tres
 │     └─ tile_sets
 │        └─ mazmorra.tres
+├─ documentacion
+│  ├─ Informe GAMY - v.0.2.0 BORRADOR.pdf
+│  └─ INFORME-APA.md
 ├─ LICENSE
 ├─ README.md
-└─ web
-   ├─ imgs
+└─ website
+   ├─ IMGS
    │  ├─ background-black.png
    │  ├─ godot.jpg
    │  ├─ pfp_prueba.jpeg
