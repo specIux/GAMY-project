@@ -17,6 +17,7 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
 - CSS / HTML
 - JavaScript
+
 Y se pueden observar en la siguiente carpeta: [GAME](GAME/)
 
 ## Estructuras de Carpetas
