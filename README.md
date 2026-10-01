@@ -21,18 +21,6 @@ A lo largo del proyecto hemos utilizados multiples lenguajes de programacion par
 
 Y se pueden observar en la siguiente carpeta: [GAME](/arcade_game)
 
-## Progresión de Niveles
-
-| Nivel | Trampas | Monedas | Dificultad |
-|:---:|:---:|:---:|:---:|
-| 1 | 2 | 5 | ⭐⭐ |
-| 2 | 3 | 6 | ⭐⭐ |
-| 3 | 4 | 7 | ⭐⭐⭐ |
-| 4 | 5 | 8 | ⭐⭐⭐ |
-| 5 | 6 | 9 | ⭐⭐⭐ |
-| 6 | 8 | 10 | ⭐⭐⭐⭐ |   
-
-
 ## Estructuras de Carpetas
 
 ```
