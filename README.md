@@ -1,9 +1,14 @@
+<div align="center">
+
 # MultiPlataformero
-Multiplataformero es un juego 2D basico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles)  [GAME](GAME/)
+
+MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger todas las monedas del castillo, pasando trampas, para pasar a los siguientes escenarios (niveles) [GAME](GAME/)
 
 [![Godot](https://img.shields.io/badge/Godot-4.x-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20%7C%20Web-orange.svg)]()   
+[![Plataforma](https://img.shields.io/badge/Plataforma-Windows%20%7C%20Web-orange.svg)]()
+
+</div>   
 
 >[!Note]
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
