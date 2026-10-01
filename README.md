@@ -120,12 +120,12 @@ GAMY-project
 
 ```
 
-# Contribuidores
-Las personas encargadas de trabajar en este proyecto son:
-- SpecIux
-- Xen-alt10
-- M0ladora
-- Fazyhub666
+## Contribuidores
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| [![SpecIux](https://github.com/SpecIux.png)](https://github.com/SpecIux) | [![Xen-alt10](https://github.com/Xen-alt10.png)](https://github.com/Xen-alt10) | [![M0ladora](https://github.com/M0ladora.png)](https://github.com/M0ladora) | [![Fazyhub666](https://github.com/Fazyhub666.png)](https://github.com/Fazyhub666) |
+| SpecIux | Xen-alt10 | M0ladora | Fazyhub666 |   
 
 # LICENCIA
 Podés usar, modificar y distribuir el software libremente (incluso comercialmente), siempre que incluyas el aviso de copyright original, y sin ninguna garantía por parte del autor [LICENCIA](LICENSE/).
