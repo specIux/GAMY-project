@@ -127,6 +127,14 @@ GAMY-project
 
 ```
 
+## Caraterìsticas del juego
+
+
+## Gameplay 
+
+
+## Controles 
+
 
 
 ## Contribuidores
