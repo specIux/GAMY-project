@@ -127,7 +127,7 @@ GAMY-project
 
 ```
 
-## Caraterìsticas del juego
+## Caraterísticas del juego
 
 
 ## Gameplay 
