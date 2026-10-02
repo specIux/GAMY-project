@@ -130,6 +130,9 @@ GAMY-project
 ## Caraterísticas del juego
 
 
+## Instalacion del juego
+
+
 ## Gameplay 
 
 
