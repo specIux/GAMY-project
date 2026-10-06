@@ -129,6 +129,10 @@ GAMY-project
 
 ## Caraterísticas del juego
 
+-  **Niveles Progresivos:** 6 escenarios diseñados en una mazmorra con dificultad ascendente.
+-  **Sistema de Monedas:** Recoge todas las monedas de cada nivel para desbloquear la salida.
+-  **Trampas y Desafíos:** Esquiva trampas de corto/largo alcance y obstáculos con físicas ajustadas.
+-  **Contador de Muertes:** Registro en tiempo real de los intentos en la interfaz (UI).
 
 ## Instalacion del juego
 
@@ -140,10 +144,12 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 ### Pasos de Ejecución
 
 1. **Clonar el repositorio:**
+   
    ```bash
    git clone https://github.com/specIux/GAMY-project.git
    cd GAMY-project
-   
+   ```
+  
 2 **Ejecutar Godot Engine:**
 - Abrir la aplicacion instalada anteriormente
 - Hacer click en el boton "Importar" (Import) del menu principal de Godot
