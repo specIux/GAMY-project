@@ -18,8 +18,8 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 ## Indice
 
 <details>
-  <b> **Contenidos del README** </b>
-  <br/>
+  **Contenidos del README**
+  
   <ul>
   <li><a href="#lenguajes-utilizados"><img src="https://img.shields.io/badge/1._Lenguajes_Utilizados-18181b?style=for-the-badge" /></a></li>
     <li><a href="#estructuras-de-carpetas"><img src="https://img.shields.io/badge/2._Estructura_de_Carpetas-18181b?style=for-the-badge" /></a></li>
