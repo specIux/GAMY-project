@@ -15,20 +15,21 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 >[!Tip]
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
 
-## Indice 
+## Indice
 
 <details>
-  <summary><b> Tabla de Contendios (Hacer click para expandir)</b></summary>
-  <ol>
-    <li><a href="#lenguajes-utilizados">Lenguajes Utilizados</a></li>
-    <li><a href="#estructuras-de-carpetas">Estructura de Carpetas</a></li>
-    <li><a href="#caraterísticas-del-juego">Características del Juego</a></li>
-    <li><a href="#instalacion-del-juego">Instalación del Juego</a></li>
-    <li><a href="#gameplay">Gameplay</a></li>
-    <li><a href="#controles">Controles</a></li>
-    <li><a href="#contribuidores">Contribuidores</a></li>
-    <li><a href="#licencia">Licencia</a></li>
-  </ol>
+  <summary><b> Contenidos del README (Hacer click para expandir)</b></summary>
+  <br />
+  <p>
+    <a href="#lenguajes-utilizados"><img src="https://img.shields.io/badge/1._Lenguajes_Utilizados-18181b?style=for-the-badge" /></a>
+    <a href="#estructuras-de-carpetas"><img src="https://img.shields.io/badge/2._Estructura_de_Carpetas-18181b?style=for-the-badge" /></a>
+    <a href="#características-del-juego"><img src="https://img.shields.io/badge/3._Características-18181b?style=for-the-badge" /></a>
+    <a href="#instalacion-del-juego"><img src="https://img.shields.io/badge/4._Instalación-18181b?style=for-the-badge" /></a>
+    <a href="#gameplay"><img src="https://img.shields.io/badge/5._Gameplay-18181b?style=for-the-badge" /></a>
+    <a href="#controles"><img src="https://img.shields.io/badge/6._Controles-18181b?style=for-the-badge" /></a>
+    <a href="#contribuidores"><img src="https://img.shields.io/badge/7._Contribuidores-18181b?style=for-the-badge" /></a>
+    <a href="#licencia"><img src="https://img.shields.io/badge/8._Licencia-18181b?style=for-the-badge" /></a>
+  </p>
 </details>
 
 
