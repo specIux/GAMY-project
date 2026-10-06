@@ -175,7 +175,6 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 
 ## Contribuidores
 
-
 <table>
 <tr>
   <td align="center"><a href="https://github.com/Xen-alt10"><img src="https://images.weserv.nl/?url=https://github.com/Xen-alt10.png&h=80&w=80&fit=cover&mask=circle" width="80px" alt=""/><br /><sub><b>Xen-alt10</b></sub></a></td>
