@@ -162,16 +162,12 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 
 ## Controles 
 
-<div align="center">
-
 | Acción | Teclado | Mando (Gamepad) |
 | :--- | :---: | :---: |
 | **Moverse a la Izquierda** | <kbd>A</kbd> / <kbd>◄</kbd> | D-Pad Izquierda / Stick Izq. |
 | **Moverse a la Derecha** | <kbd>D</kbd> / <kbd>►</kbd> | D-Pad Derecha / Stick Izq. |
 | **Saltar** | <kbd>Espacio</kbd> / <kbd>W</kbd> / <kbd>▲</kbd> | Botón <kbd>A</kbd> / <kbd>✖</kbd> |
 | **Pausar / Menú** | <kbd>Esc</kbd> | Botón <kbd>Start</kbd> |
-
-</div>
 
 
 ## Contribuidores
