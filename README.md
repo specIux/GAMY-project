@@ -16,8 +16,6 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
 
 ## Indice
-
-<details>
   **Contenidos del README**
   
   <ul>
