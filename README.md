@@ -15,6 +15,23 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 >[!Tip]
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
 
+## Indice 
+
+<details>
+  <summary><b>📌 Tabla de Contenidos (Haz clic para expandir)</b></summary>
+  <ol>
+    <li><a href="#lenguajes-utilizados">Lenguajes Utilizados</a></li>
+    <li><a href="#estructuras-de-carpetas">Estructura de Carpetas</a></li>
+    <li><a href="#caraterísticas-del-juego">Características del Juego</a></li>
+    <li><a href="#instalacion-del-juego">Instalación del Juego</a></li>
+    <li><a href="#gameplay">Gameplay</a></li>
+    <li><a href="#controles">Controles</a></li>
+    <li><a href="#contribuidores">Contribuidores</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+  </ol>
+</details>
+
+
 ## Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
 - CSS / HTML
@@ -126,7 +143,7 @@ GAMY-project
 
 ```
 
-## Caraterísticas del juego
+## Características del juego
 
 -  **Niveles Progresivos:** 6 escenarios diseñados en una mazmorra con dificultad ascendente.
 -  **Sistema de Monedas:** Recoge todas las monedas de cada nivel para desbloquear la salida.
