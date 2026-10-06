@@ -132,12 +132,39 @@ GAMY-project
 
 ## Instalacion del juego
 
+Sigue estos pasos para ejecutar el juego en tu máquina local desde el código fuente:
+
+### Prerrequisitos
+1. Descargar e instalar el motor grafico Godot Engine (desde el link al principio del documento)
+
+### Pasos de Ejecución
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/specIux/GAMY-project.git
+   cd GAMY-project
+   
+2 **Ejecutar Godot Engine:**
+- Abrir la aplicacion instalada anteriormente
+- Hacer click en el boton "Importar" (Import) del menu principal de Godot
+- Navegar hasta la carpeta del juego y seleccionar el archivo "project.godot"
+
+3 **Ejecutar el Juego:**
+- Una vez iniciada el menu de edicion de Godot Engine, presionar F5 para ejecutar el juego
 
 ## Gameplay 
 
 
 ## Controles 
 
+<div align="center">
+
+| Acción | Teclado | Mando (Gamepad) |
+| :--- | :---: | :---: |
+| **Moverse a la Izquierda** | <kbd>A</kbd> / <kbd>◄</kbd> | D-Pad Izquierda / Stick Izq. |
+| **Moverse a la Derecha** | <kbd>D</kbd> / <kbd>►</kbd> | D-Pad Derecha / Stick Izq. |
+| **Saltar** | <kbd>Espacio</kbd> / <kbd>W</kbd> / <kbd>▲</kbd> | Botón <kbd>A</kbd> / <kbd>✖</kbd> |
+| **Pausar / Menú** | <kbd>Esc</kbd> | Botón <kbd>Start</kbd> |
 
 
 ## Contribuidores
