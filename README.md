@@ -19,17 +19,17 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 
 <details>
   <summary><b> Contenidos del README (Hacer click para expandir)</b></summary>
-  <br />
-  <p>
-    <a href="#lenguajes-utilizados"><img src="https://img.shields.io/badge/1._Lenguajes_Utilizados-18181b?style=for-the-badge" /></a>
-    <a href="#estructuras-de-carpetas"><img src="https://img.shields.io/badge/2._Estructura_de_Carpetas-18181b?style=for-the-badge" /></a>
-    <a href="#características-del-juego"><img src="https://img.shields.io/badge/3._Características-18181b?style=for-the-badge" /></a>
-    <a href="#instalacion-del-juego"><img src="https://img.shields.io/badge/4._Instalación-18181b?style=for-the-badge" /></a>
-    <a href="#gameplay"><img src="https://img.shields.io/badge/5._Gameplay-18181b?style=for-the-badge" /></a>
-    <a href="#controles"><img src="https://img.shields.io/badge/6._Controles-18181b?style=for-the-badge" /></a>
-    <a href="#contribuidores"><img src="https://img.shields.io/badge/7._Contribuidores-18181b?style=for-the-badge" /></a>
-    <a href="#licencia"><img src="https://img.shields.io/badge/8._Licencia-18181b?style=for-the-badge" /></a>
-  </p>
+  <br/>
+  <ul>
+  <li><a href="#lenguajes-utilizados"><img src="https://img.shields.io/badge/1._Lenguajes_Utilizados-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#estructuras-de-carpetas"><img src="https://img.shields.io/badge/2._Estructura_de_Carpetas-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#características-del-juego"><img src="https://img.shields.io/badge/3._Características-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#instalacion-del-juego"><img src="https://img.shields.io/badge/4._Instalación-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#gameplay"><img src="https://img.shields.io/badge/5._Gameplay-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#controles"><img src="https://img.shields.io/badge/6._Controles-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#contribuidores"><img src="https://img.shields.io/badge/7._Contribuidores-18181b?style=for-the-badge" /></a></li>
+    <li><a href="#licencia"><img src="https://img.shields.io/badge/8._Licencia-18181b?style=for-the-badge" /></a></li>
+  </ul>
 </details>
 
 
