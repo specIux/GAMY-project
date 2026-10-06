@@ -16,8 +16,6 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 >Para poder ejecutar nuestro juego se debe instalar [Godot Engine](https://godotengine.org/download/windows/) -> LINK PARA DESCARGAR LA APLICACION
 
 ## Indice
-  **Contenidos del README**
-  
   <ul>
   <li><a href="#lenguajes-utilizados"><img src="https://img.shields.io/badge/1._Lenguajes_Utilizados-18181b?style=for-the-badge" /></a></li>
     <li><a href="#estructuras-de-carpetas"><img src="https://img.shields.io/badge/2._Estructura_de_Carpetas-18181b?style=for-the-badge" /></a></li>
@@ -28,8 +26,6 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
     <li><a href="#contribuidores"><img src="https://img.shields.io/badge/7._Contribuidores-18181b?style=for-the-badge" /></a></li>
     <li><a href="#licencia"><img src="https://img.shields.io/badge/8._Licencia-18181b?style=for-the-badge" /></a></li>
   </ul>
-</details>
-
 
 ## Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
