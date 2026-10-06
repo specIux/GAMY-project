@@ -171,6 +171,8 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 | **Saltar** | <kbd>Espacio</kbd> / <kbd>W</kbd> / <kbd>▲</kbd> | Botón <kbd>A</kbd> / <kbd>✖</kbd> |
 | **Pausar / Menú** | <kbd>Esc</kbd> | Botón <kbd>Start</kbd> |
 
+</div>
+
 
 ## Contribuidores
 
