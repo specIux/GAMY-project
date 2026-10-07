@@ -106,13 +106,13 @@ GAMY-project
 │     │  └─ shader_rojo.tres
 │     └─ tile_sets
 │        └─ mazmorra.tres
-├─ documentacion
+├─ docs
 │  ├─ Informe GAMY - v.0.2.0 BORRADOR.pdf
 │  └─ INFORME-APA.md
 ├─ LICENSE
 ├─ README.md
-└─ website
-   ├─ IMGS
+└─ web
+   ├─ imagenes
    │  ├─ background-black.png
    │  ├─ godot.jpg
    │  ├─ pfp_prueba.jpeg

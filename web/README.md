@@ -4,8 +4,8 @@
 
 ```
 GAMY-project                     -> Repositorio Principal
-└─ website                       -> Carpeta para la pagina web  
-   ├─ IMGS                       -> Carpeta para las imagenes usadas en la web
+└─ web                           -> Carpeta para la pagina web  
+   ├─ imagenes                   -> Carpeta para las imagenes usadas en la web
    │  ├─ background-black.png    -> Imagen de prueba 
    │  ├─ godot.jpg               -> Imagen banner para la web
    │  ├─ pfp_prueba.jpeg         -> Imagen de miembro del equipo
