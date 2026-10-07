@@ -112,7 +112,7 @@ GAMY-project
 ├─ LICENSE
 ├─ README.md
 └─ web
-   ├─ IMGS
+   ├─ imagenes
    │  ├─ background-black.png
    │  ├─ godot.jpg
    │  ├─ pfp_prueba.jpeg
