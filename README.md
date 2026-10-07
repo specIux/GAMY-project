@@ -161,9 +161,10 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 
 <div align="center">
 
-  <video src="https://github.com/user-attachments/assets/91054c05-8ee7-40b8-968f-3cee48d7892c" controls width="100%">
+  <video src="https://github.com/user-attachments/assets/0bb66bd6-5779-45ab-ba7c-6799543642bb" controls width="100%">
     Tu navegador no soporta el reproductor de video.
   </video>
+
 
 </div>
 
