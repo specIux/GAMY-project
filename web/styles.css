@@ -8,9 +8,9 @@
 }
 
 :root {
-    --white-color: #fff;
+    --white-color: #f8fafc;
     --dark-color: #0a0a0a;
-    --primary-color: #706464;
+    --primary-color: #0f172a;
     --secondary-color: #7a7876;
     --light-pink-color: #faf4f5;
     --medium-gray-color: #ccc;
@@ -126,19 +126,26 @@ footer {
 }
 
 
-/* BANNER */
+/* Contenedor del banner */
 .banner {
     width: 100%;
-    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1c1c; 
     overflow: hidden;
 }
 
-.banner img {
+/* Imagen GIF dentro del banner */
+.banner-img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.7) blur(1px);
+    height: auto;          
+    max-height: 500px;     
+    object-fit: contain;   
+    display: block;
 }
+
+
 
 /* SECCIONES */
 .historia, .productos {
@@ -307,6 +314,7 @@ text-align: center;
 .prod-info {
     flex: 1;
     padding: 0 20px;
+    text-align: center;
 }
 
 .prod-imgs {
