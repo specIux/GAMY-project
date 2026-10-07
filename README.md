@@ -118,11 +118,15 @@ GAMY-project
    │  ├─ pfp_prueba.jpeg
    │  ├─ pfp_prueba2.png
    │  ├─ pfp_prueba3.png
-   │  └─ pfp_prueba4.jpg
+   │  ├─ pfp_prueba4.jpg
+   │  └─ screen-juego.png
    ├─ index.html
+   ├─ README.md
    ├─ script
    │  └─ script.js
-   └─ styles.css
+   ├─ styles.css
+   └─ videos
+      └─ Multiplataformero-Gameplay-ezgif.com-video-to-gif-converter.gif
 
 ```
 
@@ -195,5 +199,6 @@ Podés usar, modificar y distribuir el software libremente (incluso comercialmen
 
 
      
+
 
 
