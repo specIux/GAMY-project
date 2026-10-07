@@ -160,7 +160,11 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 ## Gameplay 
 
 <div align="center">
-https://github.com/user-attachments/assets/91054c05-8ee7-40b8-968f-3cee48d7892c
+
+  <video src="https://github.com/user-attachments/assets/91054c05-8ee7-40b8-968f-3cee48d7892c" controls width="100%">
+    Tu navegador no soporta el reproductor de video.
+  </video>
+
 </div>
 
 ## Controles 
