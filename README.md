@@ -159,6 +159,9 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
 
 ## Gameplay 
 
+<div align="center">
+https://github.com/user-attachments/assets/91054c05-8ee7-40b8-968f-3cee48d7892c
+</div>
 
 ## Controles 
 
