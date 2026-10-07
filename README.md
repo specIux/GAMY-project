@@ -17,7 +17,7 @@ MultiPlataformero es un juego 2D básico en donde un mago tiene que recoger toda
 
 ## Lenguajes Utilizados
 A lo largo del proyecto hemos utilizados multiples lenguajes de programacion para el desarrollo de nuestro juego, principalmente hemos utilizado GDScript como lenguaje base para el codigo fuente del proyecto. Además de ese lenguaje tambien se utilizaron: 
-- CSS / HTML
+- CSS3 / HTML5
 - JavaScript
 
 Y se pueden observar en la siguiente carpeta: [GAME](/arcade_game)
@@ -149,12 +149,12 @@ Sigue estos pasos para ejecutar el juego en tu máquina local desde el código f
    cd GAMY-project
    ```
   
-2 **Ejecutar Godot Engine:**
+2.  **Ejecutar Godot Engine:**
 - Abrir la aplicacion instalada anteriormente
 - Hacer click en el boton "Importar" (Import) del menu principal de Godot
 - Navegar hasta la carpeta del juego y seleccionar el archivo "project.godot"
 
-3 **Ejecutar el Juego:**
+3. **Ejecutar el Juego:**
 - Una vez iniciada el menu de edicion de Godot Engine, presionar F5 para ejecutar el juego
 
 ## Gameplay 
