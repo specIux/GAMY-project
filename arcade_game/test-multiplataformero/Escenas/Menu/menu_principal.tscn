@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://b6bn4ili0b3rb"]
 
-[ext_resource type="Script" path="res://Escenas/Menu/menu_principal.gd" id="1_menu"]
+[ext_resource type="Script" uid="uid://bhu04r3vjyhwf" path="res://Escenas/Menu/menu_principal.gd" id="1_menu"]
 
-[node name="MenuPrincipal" type="Control"]
+[node name="MenuPrincipal" type="Control" unique_id=1027257777]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_menu")
 
-[node name="Fondo" type="ColorRect" parent="."]
+[node name="Fondo" type="ColorRect" parent="." unique_id=1076104141]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,7 +20,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.0862745, 0.0862745, 0.129412, 1)
 
-[node name="MenuBotones" type="VBoxContainer" parent="."]
+[node name="MenuBotones" type="VBoxContainer" parent="." unique_id=275486579]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -35,35 +35,35 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 14
 
-[node name="Titulo" type="Label" parent="MenuBotones"]
+[node name="Titulo" type="Label" parent="MenuBotones" unique_id=668979631]
 layout_mode = 2
 theme_override_font_sizes/font_size = 38
 text = "TEST MULTIPLATAFORMERO"
 horizontal_alignment = 1
 
-[node name="EspacioTitulo" type="Control" parent="MenuBotones"]
+[node name="EspacioTitulo" type="Control" parent="MenuBotones" unique_id=1116065950]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
-[node name="BotonJugar" type="Button" parent="MenuBotones"]
+[node name="BotonJugar" type="Button" parent="MenuBotones" unique_id=1526886441]
 custom_minimum_size = Vector2(280, 46)
 layout_mode = 2
 theme_override_font_sizes/font_size = 22
 text = "Jugar"
 
-[node name="BotonOpciones" type="Button" parent="MenuBotones"]
+[node name="BotonOpciones" type="Button" parent="MenuBotones" unique_id=894431522]
 custom_minimum_size = Vector2(280, 46)
 layout_mode = 2
 theme_override_font_sizes/font_size = 22
 text = "Opciones"
 
-[node name="BotonSalir" type="Button" parent="MenuBotones"]
+[node name="BotonSalir" type="Button" parent="MenuBotones" unique_id=1963488779]
 custom_minimum_size = Vector2(280, 46)
 layout_mode = 2
 theme_override_font_sizes/font_size = 22
 text = "Salir"
 
-[node name="SelectorNiveles" type="VBoxContainer" parent="."]
+[node name="SelectorNiveles" type="VBoxContainer" parent="." unique_id=137757744]
 visible = false
 layout_mode = 1
 anchors_preset = 8
@@ -79,49 +79,49 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 16
 
-[node name="TituloNiveles" type="Label" parent="SelectorNiveles"]
+[node name="TituloNiveles" type="Label" parent="SelectorNiveles" unique_id=901374056]
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "SELECCIONAR NIVEL"
 horizontal_alignment = 1
 
-[node name="BotonesNiveles" type="GridContainer" parent="SelectorNiveles"]
+[node name="BotonesNiveles" type="GridContainer" parent="SelectorNiveles" unique_id=1269619631]
 layout_mode = 2
 theme_override_constants/h_separation = 12
 theme_override_constants/v_separation = 12
 columns = 2
 
-[node name="Nivel1" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+[node name="Nivel1" type="Button" parent="SelectorNiveles/BotonesNiveles" unique_id=2029715079]
 custom_minimum_size = Vector2(154, 42)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Nivel 1"
 
-[node name="Nivel2" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+[node name="Nivel2" type="Button" parent="SelectorNiveles/BotonesNiveles" unique_id=1113248509]
 custom_minimum_size = Vector2(154, 42)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Nivel 2"
 
-[node name="Nivel3" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+[node name="Nivel3" type="Button" parent="SelectorNiveles/BotonesNiveles" unique_id=1370838752]
 custom_minimum_size = Vector2(154, 42)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Nivel 3"
 
-[node name="Nivel4" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+[node name="Nivel4" type="Button" parent="SelectorNiveles/BotonesNiveles" unique_id=1245906410]
 custom_minimum_size = Vector2(154, 42)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Nivel 4"
 
-[node name="Nivel5" type="Button" parent="SelectorNiveles/BotonesNiveles"]
+[node name="Nivel5" type="Button" parent="SelectorNiveles/BotonesNiveles" unique_id=1766036416]
 custom_minimum_size = Vector2(154, 42)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Nivel 5"
 
-[node name="BotonVolver" type="Button" parent="SelectorNiveles"]
+[node name="BotonVolver" type="Button" parent="SelectorNiveles" unique_id=1933609708]
 custom_minimum_size = Vector2(280, 40)
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
