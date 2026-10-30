@@ -38,7 +38,7 @@ theme_override_constants/separation = 14
 [node name="Titulo" type="Label" parent="MenuBotones" unique_id=668979631]
 layout_mode = 2
 theme_override_font_sizes/font_size = 38
-text = "TEST MULTIPLATAFORMERO"
+text = "MULTIPLATAFORMERO"
 horizontal_alignment = 1
 
 [node name="EspacioTitulo" type="Control" parent="MenuBotones" unique_id=1116065950]
