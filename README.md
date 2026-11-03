@@ -111,6 +111,7 @@ GAMY-project
 │  └─ INFORME-APA.md
 ├─ LICENSE
 ├─ README.md
+├─ CHANGELOG.md
 └─ web
    ├─ imagenes
    │  ├─ background-black.png
