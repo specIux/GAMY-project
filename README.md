@@ -20,14 +20,13 @@ A lo largo del proyecto hemos utilizados multiples lenguajes de programacion par
 - CSS3 / HTML5
 - JavaScript
 
-Y se pueden observar en la siguiente carpeta: [GAME](/arcade_game)
+Y se pueden observar en la siguiente carpeta: [GAME](/backend/test-multiplataformero)
 
 ## Estructuras de Carpetas
 
 ```
 GAMY-project
-├─ arcade_game
-│  ├─ README.md
+├─ backend
 │  └─ test-multiplataformero
 │     ├─ .editorconfig
 │     ├─ assets
@@ -112,7 +111,7 @@ GAMY-project
 ├─ LICENSE
 ├─ README.md
 ├─ CHANGELOG.md
-└─ web
+└─ frontend
    ├─ imagenes
    │  ├─ background-black.png
    │  ├─ godot.jpg
@@ -122,7 +121,6 @@ GAMY-project
    │  ├─ pfp_prueba4.jpg
    │  └─ screen-juego.png
    ├─ index.html
-   ├─ README.md
    ├─ script
    │  └─ script.js
    ├─ styles.css
