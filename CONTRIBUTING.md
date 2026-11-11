@@ -1,6 +1,6 @@
 # Guía de Contribución
 
-¡Gracias por tu interés en contribuir a **GAMY-project**! 🧙‍♂️
+¡Gracias por tu interés en contribuir a **GAMY-project**! 
 
 Este documento explica cómo podés colaborar con el desarrollo de **MultiPlataformero**, nuestro juego 2D de plataformas hecho en [Godot Engine](https://godotengine.org), y con su sitio web complementario.
 
@@ -24,7 +24,7 @@ Al participar en este proyecto aceptás cumplir con nuestro [Código de Conducta
 
 Cualquier aporte es bienvenido. Algunas formas de colaborar:
 
-### 🐛 Reportar bugs
+###  Reportar bugs
 
 Si encontrás un error en el juego (trampas que no funcionan, colisiones incorrectas, el mago atraviesa paredes, el contador de muertes no suma, etc.) o en el sitio web:
 
@@ -37,17 +37,17 @@ Si encontrás un error en el juego (trampas que no funcionan, colisiones incorre
    - Tu versión de **Godot Engine** y tu sistema operativo.
    - Capturas de pantalla o clips si ayudan a entender el problema.
 
-### 💡 Proponer mejoras
+###  Proponer mejoras
 
 Ideas de nuevos niveles, trampas, mecánicas de juego, mejoras de UI (contador de muertes, menú principal) o rediseños del sitio web. Abrí un issue con la etiqueta correspondiente y describí tu propuesta con el mayor detalle posible.
 
-### 🎨 Aportar arte, sprites y sonido
+###  Aportar arte, sprites y sonido
 
 - Los sprites se ubican en `backend/test-multiplataformero/assets/sprites/`.
 - La música y los efectos de sonido, en `backend/test-multiplataformero/assets/musica/` y `backend/test-multiplataformero/assets/sonidos/`.
 - Asegurate de tener los derechos o la licencia correspondiente del material aportado, y mencioná al autor original en el PR.
 
-### 📝 Mejorar la documentación
+###  Mejorar la documentación
 
 Correcciones al `README.md`, este documento, el informe en `docs/` o nuevos manuales dentro de `docs/manuales/`.
 
