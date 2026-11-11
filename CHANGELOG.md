@@ -7,6 +7,26 @@ y este proyecto se adhiere a [Versionado Semántico](https://semver.org/lang/es/
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-10
+
+### Added
+
+- Guía de contribución (`CONTRIBUTING.md`) con el flujo de trabajo, convenciones de código (GDScript, HTML/CSS/JS) y formato de reporte de bugs.
+- Política de seguridad (`SECURITY.md`) con versiones soportadas, alcance y canales de reporte de vulnerabilidades.
+- Código de conducta (`CODE_OF_CONDUCT.md`) para la comunidad del proyecto.
+- Nueva versión del informe APA del proyecto: `docs/InformeEEST1_LPR2026_PIA_GAMY_Multiplataformero_v.0.2.2.pdf`.
+- Se agregó el CHANGELOG a la estructura de carpetas del README.
+
+### Changed
+
+- Se reorganizó el repositorio: el juego pasó de `arcade_game/` a `backend/test-multiplataformero/` y el sitio web de `web/` a `frontend/`.
+- Se actualizó el README principal con la nueva estructura de carpetas.
+
+### Removed
+
+- Se eliminó la versión anterior del informe APA (`docs/Informe GAMY - v.0.2.0 BORRADOR.pdf`).
+- Se eliminaron los README internos de `arcade_game/` y `web/`.
+
 ## [1.0.0] - 2026-10-30
 
 ### Added
