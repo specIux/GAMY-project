@@ -111,6 +111,9 @@ GAMY-project
 ├─ LICENSE
 ├─ README.md
 ├─ CHANGELOG.md
+├─ SECURITY.md
+├─ CODE_OF_CONDUCT.md
+├─ CONTRIBUTING.md
 └─ frontend
    ├─ imagenes
    │  ├─ background-black.png
