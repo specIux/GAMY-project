@@ -7,6 +7,14 @@ y este proyecto se adhiere a [Versionado Semántico](https://semver.org/lang/es/
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-11-16
+
+### Added
+
+- Manual del programador
+- Manual del usuario
+  
+
 ## [1.1.0] - 2026-11-10
 
 ### Added
