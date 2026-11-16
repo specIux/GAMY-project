@@ -108,6 +108,8 @@ GAMY-project
 ├─ docs
 │  ├─ Informe GAMY - v.0.2.0 BORRADOR.pdf
 │  └─ INFORME-APA.md
+│  ├─ manuales
+│      └─  manual_programador_v.2.0.0
 ├─ LICENSE
 ├─ README.md
 ├─ CHANGELOG.md
