@@ -111,6 +111,8 @@ GAMY-project
 │  ├─ manuales
 │      └─  manual_programador_v.2.0.
 |      └─  manual_usuario_v.2.0.0
+|  ├─ carpeta_campo
+|       └─ carpeta_grupal
 ├─ LICENSE
 ├─ README.md
 ├─ CHANGELOG.md
