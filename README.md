@@ -113,6 +113,7 @@ GAMY-project
 |      └─  manual_usuario_v.2.0.0
 |  ├─ carpeta_campo
 |       └─ carpeta_grupal
+|       └─ carpeta_de_campo_virtual_v.1.0.0.pdf
 ├─ LICENSE
 ├─ README.md
 ├─ CHANGELOG.md
